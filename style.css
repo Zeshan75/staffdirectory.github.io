@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat' , sans-serif !important ;
+}
+
+/*........... Navbar......... */
+
+.nav-item a{
+    font-family: "Open Sans", Arial, sans-serif !important;
+    color: #158CC9;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-item a:hover{
+    color: #A5CA4A;
+
+}
+
+.navbar{
+  position: fixed;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.brandImg{
+    width: 38%;
+    margin: 0;
+    padding-left: 10px;
+}
+.navbar-brand{
+    width: 64%;
+}
+a#navbarDropdown {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dropdown-menu .dropdown-item{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-toggler{
+  color: #158CC9 !important;
+}
+
+
+
+
+                                
+                        /* .......Row 1........ */
+
+
+
+
+
+/* ........section1...... */
+
+
+.section1{
+    background-color: #F8F9FA;
+    padding-top: 8%;
+}
+.disc1{
+    
+    color: #158cc9;
+    font-size: 33px;
+    font-weight:700 ;
+    line-height: 40px;
+
+}
+.disc2{
+    font-size: 24px;
+    color: #A5CA4A;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.video-image{
+  padding:30px 0;
+}
+.emp-video{
+    width: 100%;
+    /* padding-bottom: 35px; */
+    box-shadow: -3px 2px 51px -5px rgb(0 0 0 / 81%);
+}
+
+
+/* .........Section 2........ */
+
+
+.section2{
+    padding-top: 8%;
+}
+.sec2{
+    font-size: 33px;
+    font-weight: 700;
+    color: #158cc9;
+    line-height: 40px;
+}
+
+/* .........Flip card........ */
+
+.flip-card{
+    margin: auto;
+    width:300px;
+    height: 325px;
+    background:transparent;
+    perspective:1000px;
+  }
+  
+  .flip-card-inner{
+    position: relative;
+    border-radius: 10%;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+    box-shadow: 14px 16px 11px -7px #a5ca4a;
+  }
+  .step-text-head{
+    font-size: 5rem !important;
+    color: #A5CA4A;
+    text-shadow: 4px 4px 8px #000000;
+    font-weight: 700;
+  }
+  
+  .card-text{
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+    font-weight: 500;
+  }
+  
+  .flip-card:hover .flip-card-inner{
+    transform:rotateY(180deg);
+  }
+  
+  .flip-card-back , .flip-card-front{
+    position: absolute;
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front{
+    background-color: #158CC9;
+    color: black;
+  }
+  
+  .flip-card-back{
+     background-color: #2980b9;
+    color: white;
+    transform:rotateY(180deg)
+  }
+
+  .flip-card-back-img{
+    display: block !important;
+    margin: auto !important;
+    width: 25% !important;
+    padding-top: 10% !important;
+
+  }
+
+
+  /* .......section 3....... */
+
+
+  .start{
+    margin-bottom: 25px;
+  }
+  .efct{
+    display: none;
+  }
+
+  .efct:hover{
+    display: inherit !important;
+  }
+
+
+  /* .........section 4(Focus Industry)....... */
+
+
+  .focus{
+    padding-top: 3%;
+    background-color: #F8F9FA;
+  }
+  .heading{
+    font-size: 33px;
+    font-weight: 700;
+    color: #158cc9;
+    margin-top: 30px;
+  }
+
+  .list{
+    color: #222140;
+    font-size: 16px;
+    font-weight: 400;
+    width: 57%;
+  }
+
+
+  .focus2{
+    background-color:white;
+  }
+
+  .placementImg{
+    width: 100%;
+  }
+
+  .find{
+    margin: 30px 0 !important;
+    color: #212529;
+  }
+
+
+  /* ........Section 5(Need Staff)......... */
+
+
+  .sectionStaff{
+    padding-top: 8%;
+  }
+
+  .head1{
+    font-size: 33px;
+    font-weight: 700;
+    color: #158cc9;
+    margin-top: 22px;
+  }
+  .head2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222140;
+    line-height: 36px;
+  }
+
+  /* ..........Section 6 (Benefits)........ */
+
+  .benefit{
+    padding-top: 3%;
+    background-color: #F8F9FA;
+  }
+  .benefitImg{
+    margin-top: 40px;
+  }
+
+
+  /* .......Section 7(Employers)............  */
+
+
+  .employer{
+    background-color: #F8F9FA;
+    padding-left: 0 !important;
+  }
+
+  .try{
+    background-color: white;
+  }
+  
+  .employerImg-round{
+    width: 43%;
+    right: -2%;
+    position: absolute;
+    clip-path: circle(76% at 86% 100%);
+    background-color: #F8F9FA;
+    bottom: 0;
+  }
+
+  /* ..........Section 8 staff............. */
+
+  .staff{
+    background-color: #F8F9FA;
+  }
+  .stf{
+    width: 100%;
+  }
+
+  .dumm{
+    clip-path: circle(30% at 50% 100%);
+    background-color: white;
+  }
+  
+
+  .collapsible-link {
+    width: 100%;
+    color: #222140 !important;
+    font-weight:700 !important;
+    font-size: 16px !important;
+    position: relative;
+    text-align: left !important;
+    text-decoration: none;
+}
+
+.collapsible-link:hover{
+  text-decoration: none !important;
+}
+
+.collapseTxt{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+
+.card-header{
+  background-color: #F8F9FA !important;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+
+.card{
+  margin-bottom: 30px;
+  
+}
+
+@media (max-width:425px){
+  .innerImg{width: 100%; }
+  .brandImg{width: 100%;}
+}
